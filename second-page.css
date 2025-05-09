@@ -1,0 +1,68 @@
+.kartinka{
+    width: 300px;
+}
+main{
+    background: linear-gradient(90deg, rgb(50, 230, 230) 0%, rgb(237, 6, 245) 100%);
+}
+img.kartinka{
+    margin: 0 auto;
+    border-radius: 30px;
+    
+    
+}
+.hero-block_text_one {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-block_text_two {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-block_text_three {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-block_text_four {
+    color: white;
+}
+.hero-block_title{
+    color: white;
+}
+
+
+.footer_title{
+    padding-left: 20px;
+    display: flex;
+}
+
+
+@media (max-width: 400px){
+
+
+}
+img.kartinka{
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+   
+    
+    
+
+   
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.footer_title{
+    margin-left: 25px;
+    
+}
